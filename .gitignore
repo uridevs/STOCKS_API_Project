@@ -1,0 +1,60 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore user-specific files
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore .NET Core dependencies
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore ASP.NET Core static files cache
+wwwroot/
+
+# Ignore any app settings containing sensitive information
+appsettings.json
+appsettings.*.json
+
+# Ignore migration files if you want to avoid committing generated migration code
+Migrations/
+
+# Ignore generated files for NuGet packages
+*.nupkg
+*.snupkg
+
+# Ignore Rider IDE files
+.idea/
+*.sln.iml
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore coverage tool files
+coverage/
+
+# Ignore npm debug log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignore environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore by Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
